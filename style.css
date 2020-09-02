@@ -1,0 +1,543 @@
+*{ margin: 0; padding: 0; font-family: Raleway;}
+.home{
+	background-image: url("Layer2.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	height:100vw;
+	width: 100vw;
+	max-height:100vw; background-position: center center; max-width: 100vw;
+}
+.bird{
+	background-image: url("beautiful-16736_1280.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	height:100vw;
+	width: 100vw;
+ 	max-height:100vw; background-position: center center; max-width: 100vw;
+}
+.man{
+	background-image: url("Layer3.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	height:100vw;
+	width: 100vw;
+	max-height:100vw; background-position: center center; max-width: 100vw;
+}
+.city{
+	background-image: url("Layer5.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	height:100vw;
+	width: 100vw;
+	max-height:100vw; background-position: center center; max-width: 100vw;
+}
+.bottomline{
+	background-image: url("Layer6.png");
+	background-size: cover;
+	height: 3vw;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	font-size:1.5vw;
+	width: auto;
+}
+.bird .hr1{
+	border: 1.5px solid white; width: 50vw; position: absolute; margin-top:47vw; left: 10vw;
+}
+.bird .hr2{
+	border: 1.5px solid white; width: 50vw; position: absolute; margin-top:69vw; left: 10vw;
+}
+.man .hr1{
+	border: 1.5px solid black; width: 55vw; position: absolute; margin-top:55vw; left: 40vw;
+}
+.man .hr2{
+	border: 1.5px solid black; width: 55vw; position: absolute; margin-top:76vw; left: 40vw;
+}
+.city .hr1{
+	 border: 1.5px solid #fff;width: 15vw; position: absolute;margin-top: 25vw; left: 50vw; transform: translate(-50%,-50%);
+ }
+.home .hr1{
+	border: 1.5px solid #fff; width: 15vw; top: 40vw; left: 50vw;position: absolute; transform: translate(-50%, -50%);
+}
+ul{
+	float: left;
+	list-style-type:none;
+	margin-top: 8vw;
+	margin-left: 5vw;
+	font-size: 4vw;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1.5px solid #fff;
+	transition: 0.5s ease;
+}
+ul li a:hover{
+	color: black;
+	background-color: white;
+	cursor:pointer;
+}
+.main{
+	margin: auto;
+}
+.welcome{
+	position: absolute;
+	top: 30vw;
+	left: 50vw;
+	transform: translate(-50%,-50%);
+}
+.welcome h1{
+	color: #fff;
+	font-size: 8vw;
+	white-space: nowrap;
+}
+.headline{
+	position: absolute;
+	top: 60vw;
+	left: 50vw;
+	transform: translate(-50%, -50%);
+}
+.headline h1{
+	font-size: 8vw;
+	color: #fff;
+	text-align: center;
+}
+.button{
+	color: white;
+	font-size: 3vw;
+	border: 1.5px solid #fff;
+	background-color: transparent;
+	cursor: pointer;
+	transition: 0.5s ease;
+	padding: 5px 15px;
+	background: rgba(255, 255, 255, 0.3);
+}
+.button:hover{
+	color:black;
+	background-color: white;
+}
+.button1{
+	position:absolute;
+	top: 80vw;
+	left: 35vw;
+	transform: translate(-50%,-50%);
+}
+.Or{
+	position: absolute;
+	top: 80vw;
+	left: 54vw;
+	transform: translate(-50%,-50%);
+	font-size: 2vw;
+}
+.button2{
+	position: absolute;
+	top: 80vw;
+	left: 68vw;
+	transform: translate(-50%,-50%);
+}
+.birdtimeplace{
+	position: absolute;
+	margin-top: 5vw;
+	font-size: 3.5vw;
+	left: 10vw;
+}
+.birdtitle{
+	position:absolute;
+	margin-top: 8vw;
+	left: 10vw;
+	font-size: 5vw;
+}
+.birddesc{
+	position: absolute;
+	margin-top: 27vw;
+	left: 10vw;
+	font-size: 2.5vw;
+	text-align:justify;
+	max-width: 55vw;
+	text-justify: inter-word;
+}
+.birdquote{
+	position: absolute;
+	margin-top: 50vw;
+	left: 10vw;
+	font-size: 3vw;
+	max-width: 55vw;
+	text-align: justify;
+	text-justify: inter-word;
+	font-style: italic;
+}
+.birdbutton{
+	position: absolute;
+	margin-top: 72vw;
+	left: 10vw;
+}
+.mantimeplace{
+	position: absolute;
+	margin-top:5vw;
+	font-size: 3.5vw;
+	left:40vw;
+	color: black;
+}
+.mantitle{
+	position: absolute;
+	margin-top: 8vw;
+	left:40vw;
+	font-size: 5vw;
+	color: black;
+	max-width: 55vw;
+}
+.mandesc{
+	position: absolute;
+	margin-top: 35vw;
+	left: 40vw;
+	font-size: 2.5vw;
+	text-align: justify;
+	max-width: 55vw;
+	text-justify: inter-word;
+	color: black;
+}
+.manquote{
+	position: absolute;
+	margin-top: 57.5vw;
+	left: 40vw;
+	font-size: 3vw;
+	max-width: 55vw;
+	text-align: justify;
+	text-justify: inter-word;
+	font-style: italic;
+	color: black;
+}
+.manbutton{
+	position: absolute;
+	margin-top: 80vw;
+	left: 40vw;
+	color: black;
+}
+.citytitle{
+	position: absolute;
+	margin-top:15vw;
+	left: 50vw;
+	font-size: 5vw;
+	text-align: center;
+	transform: translate(-50%,-50%);
+}
+.citydesc{
+	position: absolute;
+	text-align: center;
+	left: 50vw;
+	margin-top: 35vw;
+	transform: translate(-50%,-50%);
+	font-size: 2vw;
+	text-justify: inter-word;
+}
+#name, #email, #content{
+	padding: 15px 15px;
+	border: 1.5px solid #fff;
+	background: rgba(255,255,255,0.3);
+}
+::placeholder{
+	color: white;
+	font-size: 2.5vw;
+}
+#name{
+	position: absolute;
+	left: 20vw;
+	margin-top: 43vw;
+	width:30vw;
+	height:7vw;
+}
+#email{
+	position: absolute;
+	left: 52vw;
+	margin-top: 43vw;
+	width:30vw;
+	height:7vw;
+}
+#content{
+	position:absolute;
+	left: 20vw;
+	margin-top: 52vw;
+	width: 62vw;
+	height: 20vw;
+}
+.citybutton{
+	position: absolute;
+	left: 50vw;
+	margin-top: 80vw;
+	transform: translate(-50%,-50%);
+}
+@media (min-width: 1025px){
+    *{ margin: 0; padding: 0; font-family: Raleway;}
+.home{
+	background-image: url("Layer2.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	color: white;
+	height:100%;
+	width: 100%;
+}
+.bird{
+	background-image: url("beautiful-16736_1280.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	height:100%;
+	width: 100%;
+}
+.man{
+	background-image: url("Layer3.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	height:100%;
+	width: 100%;
+}
+.city{
+	background-image: url("Layer5.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	height:100%;
+	width: 100%;
+}
+.bottomline{
+	background-image: url("Layer6.png");
+	background-size: auto;
+	height: 3vh;
+	color: white;
+	font-size: 15px;
+	width: auto;
+}
+ul{
+	float: left;
+	list-style-type:none;
+	margin-top: 100px;
+	font-size: 20px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1.5px solid #fff;
+	transition: 0.5s ease;
+}
+ul li a:hover{
+	color: black;
+	background-color: white;
+	cursor:pointer;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.welcome{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.welcome h1{
+	color: #fff;
+	font-size: 50px;
+}
+.headline{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.headline h1{
+	font-size: 45px;
+	color: #fff;
+}
+.button{
+	color: white;
+	font-size:25px;
+	border: 1.5px solid #fff;
+	background-color: transparent;
+	cursor: pointer;
+	transition: 0.5s ease;
+	padding: 5px 15px;
+	background: rgba(255, 255, 255, 0.3);
+}
+.button:hover{
+	color:black;
+	background-color: white;
+}
+.button1{
+	position:absolute;
+	top:65%;
+	left:40%;
+	transform: translate(-50%,-50%);
+}
+.Or{
+	position: absolute;
+	top: 65%;
+	left: 51%;
+	transform: translate(-50%,-50%);
+}
+.button2{
+	position: absolute;
+	top:65%;
+	left: 60%;
+	transform: translate(-50%,-50%);
+}
+.birdtimeplace{
+	position: absolute;
+	margin-top: 5%;
+	font-size: 20px;
+	left: 10%;
+}
+.birdtitle{
+	position:absolute;
+	margin-top: 7%;
+	left: 10%;
+	font-size: 30px;
+}
+.birddesc{
+	position: absolute;
+	margin-top: 14%;
+	left: 10%;
+	font-size: 20px;
+	max-width: 500px;
+	text-align:justify;
+	text-justify: inter-word;
+}
+.birdquote{
+	position: absolute;
+	margin-top: 24%;
+	left: 10%;
+	max-width: 550px;
+	font-size: 27.5px;
+	font-style: italic;
+}
+.birdbutton{
+	position: absolute;
+	margin-top: 34%;
+	left: 10%;
+}
+.mantimeplace{
+	position: absolute;
+	margin-top:5%;
+	font-size: 20px;
+	left: 50%;
+	color: black;
+}
+.mantitle{
+	position: absolute;
+	margin-top: 7%;
+	left:50%;
+	font-size: 30px;
+	color: black;
+}
+.mandesc{
+	position: absolute;
+	margin-top: 14%;
+	left: 50%;
+	font-size: 20px;
+	text-align: justify;
+	max-width: 520px;
+	text-justify: inter-word;
+	color: black;
+}
+.manquote{
+	position: absolute;
+	margin-top: 24%;
+	left: 50%;
+	font-size: 27.5px;
+	max-width: 550px;
+	font-style: italic;
+	color: black;
+}
+.manbutton{
+	position: absolute;
+	margin-top: 35%;
+	left: 50%;
+}
+.manbutton{
+	position: absolute;
+	margin-top: 37%;
+	left: 50%;
+	max-width: 550px;
+}
+.citytitle{
+	position: absolute;
+	margin-top:7%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 30px;
+}
+.citydesc{
+	position: absolute;
+	text-align: center;
+	left: 50%;
+	margin-top: 13.5%;
+	transform: translate(-50%,-50%);
+	font-size: 15px;
+}
+#name, #email, #content{
+	padding: 15px 15px;
+	border: 1.5px solid #fff;
+	background: rgba(255,255,255,0.3);
+}
+::placeholder{
+	color: white;
+	font-size: 20px;
+}
+#name{
+	position: absolute;
+	left: 20%;
+	margin-top: 22%;
+	width:30%;
+	height:7%;
+}
+#email{
+	position: absolute;
+	left: 52%;
+	margin-top: 22%;
+	width:30%;
+	height:7%;
+}
+#content{
+	position:absolute;
+	left: 20%;
+	margin-top: 28%;
+	width: 62%;
+	height: 20%;
+}
+.citybutton{
+	position: absolute;
+	left: 50%;
+	margin-top: 42%;
+	transform: translate(-50%,-50%);
+}
+.bird .hr1{
+	border: 1.5px solid white; width: 37%; position: absolute; margin-top:23%; left: 10%;
+}
+.bird .hr2{
+	border: 1.5px solid white; width: 37%; position: absolute; margin-top:33%; left: 10%;
+}
+.man .hr1{
+	border: 1.5px solid black; width: 37%; position: absolute; margin-top:23%; left: 50%;
+}
+.man .hr2{
+	border: 1.5px solid black; width: 37%; position: absolute; margin-top:36%; left: 50%;
+}
+.city .hr1{
+	 border: 1.5px solid #fff;width: 5%; position: absolute;margin-top: 10%; left: 50%; transform: translate(-50%,-50%);
+ }
+.home .hr1{
+	border: 1.5px solid #fff; width: 20%; top: 41%; left: 50%;position: absolute; transform: translate(-50%, -50%);
+}
+}
